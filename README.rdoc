@@ -1,28 +1,7 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Lots of people out there are wondering how to get the binary equivalent of a decimal number and vice-versa. Let's give the people what they want!
 
-Things you may want to cover:
+Create a Rails app that converts numbers, much in the way that the currency converter worked. It should have a form, and a suite of tests that verify, for example, that the binary equivalent of 13 is 1101.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Extra credit: to give the people even more than they asked for, add a hexadecimal converter to your app.
