@@ -64,7 +64,7 @@ puts factorial_recursive(4) # This should output 24
 
 #Benchmark
 
-m = 100_000 # How many times to test
+m = 10000 # How many times to test
 
 Benchmark.bm(20) do |b|
   b.report('Factorial 1')     {m.times {factorial_recursive(1)}}
