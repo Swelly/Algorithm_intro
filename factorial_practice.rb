@@ -2,14 +2,10 @@ require 'benchmark'
 require 'pry'
 
 def factorial(number)
-  # binding.pry
-  # puts("Enter a non negative integer: ")
-  # number = gets.to_i
-  product = 1
-
-  for i in (1..number)
-    product = product * (i+1)
-    # puts "product is #{product}"
+  if number == 0
+    return 1
+  else
+    number * factorial(number - 1)
   end
 end
 
